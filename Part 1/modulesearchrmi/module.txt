@@ -1,0 +1,18 @@
+IS1103FC:Computing and Society
+IS1105:Strategic IT Applications
+IS1112:E-Business Essentials
+IS2102:Requirements Analysis and Design
+IS2103:Enterprise Systems Development Concepts
+IS2104:Software Team Dynamics
+IS3101:Management of Information Systems
+IS3102:Enterprise Systems Development Project
+IS3150:Digital and New Media Marketing
+IS4100:IT Project Management
+IS4102:E-Business Capstone Project
+IS4150:Mobile and Ubiquitous Commerce
+IS5002:Foundation in Management of IS
+IS5110:Software Project Management
+IS5111:Integration of IS and Business
+IS6001:Qualitative Methods for IS Research
+IS6002:Quantitative Methods for IS Research
+IS6004:Econometrics for IS Research
