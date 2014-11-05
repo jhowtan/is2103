@@ -69,9 +69,11 @@ There may be port conflicts with regards to the *tnameserv* service, make modifi
 
 ## Disclaimer
 
-Due to [Parkinson's Law](http://en.wikipedia.org/Parkinson's_Law), this project was a result of code converted from coffee, lots of help from all my fellow friends and seniors who have either survived this or are in this with me, all the matter of a span of 4 days.
+Due to [Parkinson's Law](http://en.wikipedia.org/wiki/Parkinson%27s_law), this project was a result of code converted from coffee, lots of help from all my fellow friends and seniors who have either survived this or are in this with me, all the matter of a span of 4 days.
 
-In lieu of the deadline, I most seriously couldn't be bothered to do up a proper timetable (oops).
+In hindsight, should have started on the project a lot earlier considering there was an entire month to work on it.
+
+UI developments were mostly forsaken to meet deadlines, thank goodness for Boostrap.
 
 ## Common Fixes to Problems
 
@@ -96,7 +98,7 @@ Once you're sure there's nothing wrong with the code:
 
 To resolve a particular InitialNamingContext error stack trace because the JDK is unable to bind to localhost for some reason, please modify your /etc/hosts file locally.
 
-    sudo vim /etc/hosts
+     sudo vim /etc/hosts
 
       1 ##
       2 # Host Database
