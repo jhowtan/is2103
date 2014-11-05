@@ -3,10 +3,8 @@
 # Requirements
 
 Java SDK 1.7 or higher.
-GlassFish Server 4.1
 
 If installed with NetBeans 8.0, should contain all the necessary java files installed into the system.
-
 This assignment was completed on NetBeans 8.0.1 with GlassFish 4.1, along with Java EE 7.
 
 # Assignment 1: Module Search Server (RMI)
@@ -22,50 +20,50 @@ There may be port conflicts with regards to the *tnameserv* service, make modifi
 
 1. Compile all java classes in the modulesearchrmi directory.
 
-    javac modulesearchrmi/*.java
+     javac modulesearchrmi/*.java
 
 2. Generate stub and skeleton:
 
-    rmic modulesearchrmi.ModuleSearchServerImpl
+     rmic modulesearchrmi.ModuleSearchServerImpl
 
 3. Open a new window in terminal
 4. Navigate to the directory above that of modulesearchrmi (/..)
 5. Start the server application
 
-    java modulesearchrmi.ModuleSearchServerApp
+     java modulesearchrmi.ModuleSearchServerApp
 
 6. Open another terminal session
 7. Navigate to the same directory as in step 4
 8. Start the client application
 
-    java modulesearchrmi.Main localhost
+     java modulesearchrmi.Main localhost
 
 
 ## Steps for RMI-IIOP:
 
 1. Compile all java classes in the modulesearchiiop directory.
 
-    javac modulesearchiiop/*.java
+     javac modulesearchiiop/*.java
 
 2. Generate stub and skeleton:
 
-    rmic -iiop modulesearchiiop.ModuleSearchServerImpl
+     rmic -iiop modulesearchiiop.ModuleSearchServerImpl
 
 3. Start the TransientNameServer:
 
-    sudo tnamserv
+     sudo tnamserv
 
 4. Open a new terminal session and navigate to the directory above that of modulesearchiiop (/..)
 
 5. Start the server application
 
-    java modulesearchiiop.ModuleSearchServerApp
+     java modulesearchiiop.ModuleSearchServerApp
 
 6. Open another terminal session
 7. Navigate to the same directory as in step 4
 8. Start the client application
 
-    java modulesearchiiop.Main localhost
+     java modulesearchiiop.Main localhost
 
 # Assignment 2: Module Registration System (EJB)
 
@@ -77,7 +75,7 @@ In lieu of the deadline, I most seriously couldn't be bothered to do up a proper
 
 ## Common Fixes to Problems
 
-Before doing anything:
+Before anything (don't panic):
 
 * Ensure there are no errors in the code
 * Check if RemoteInterfaces are included in projects
