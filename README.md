@@ -14,56 +14,56 @@ Refer to the instructions below to compile and run the server.
 ## Instructions for RMI:
 
 Steps listed below are for running on Mac OS X.
-There may be port conflicts with regards to the *tnameserv* service, make modifications to the code if necessary.
+There may be port conflicts with regards to the `tnameserv` service, make modifications to the code if necessary.
 
 ## Steps for RMI:
 
 1. Compile all java classes in the modulesearchrmi directory.
 
-     javac modulesearchrmi/*.java
+     `javac modulesearchrmi/*.java`
 
 2. Generate stub and skeleton:
 
-     rmic modulesearchrmi.ModuleSearchServerImpl
+     `rmic modulesearchrmi.ModuleSearchServerImpl`
 
 3. Open a new window in terminal
 4. Navigate to the directory above that of modulesearchrmi (/..)
 5. Start the server application
 
-     java modulesearchrmi.ModuleSearchServerApp
+     `java modulesearchrmi.ModuleSearchServerApp`
 
 6. Open another terminal session
 7. Navigate to the same directory as in step 4
 8. Start the client application
 
-     java modulesearchrmi.Main localhost
+     `java modulesearchrmi.Main localhost`
 
 
 ## Steps for RMI-IIOP:
 
 1. Compile all java classes in the modulesearchiiop directory.
 
-     javac modulesearchiiop/*.java
+     `javac modulesearchiiop/*.java`
 
 2. Generate stub and skeleton:
 
-     rmic -iiop modulesearchiiop.ModuleSearchServerImpl
+     `rmic -iiop modulesearchiiop.ModuleSearchServerImpl`
 
 3. Start the TransientNameServer:
 
-     sudo tnamserv
+     `sudo tnamserv`
 
 4. Open a new terminal session and navigate to the directory above that of modulesearchiiop (/..)
 
 5. Start the server application
 
-     java modulesearchiiop.ModuleSearchServerApp
+     `java modulesearchiiop.ModuleSearchServerApp`
 
 6. Open another terminal session
 7. Navigate to the same directory as in step 4
 8. Start the client application
 
-     java modulesearchiiop.Main localhost
+     `java modulesearchiiop.Main localhost`
 
 # Assignment 2: Module Registration System (EJB)
 
@@ -98,7 +98,7 @@ Once you're sure there's nothing wrong with the code:
 
 To resolve a particular InitialNamingContext error stack trace because the JDK is unable to bind to localhost for some reason, please modify your /etc/hosts file locally.
 
-     sudo vim /etc/hosts
+     `sudo vim /etc/hosts`
 
       1 ##
       2 # Host Database
@@ -111,7 +111,7 @@ To resolve a particular InitialNamingContext error stack trace because the JDK i
       9 255.255.255.255 broadcasthost
      10 ::1             localhost
 
-     :wq
+     `:wq`
 
 Add in line 8, save and quit. Restart GlassFish and repeat the fix in Common Fixes.
 
